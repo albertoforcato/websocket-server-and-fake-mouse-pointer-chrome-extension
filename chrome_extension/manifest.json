@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Your Chrome Extension Name",
+    "version": "0.1",
+    "author": "First Last",
+    "description": "A description about your Chrome Extension...",
+    "content_scripts": [
+        {
+          "js": [
+            "scripts/socket.io.min.js",
+            "scripts/websocket.js",
+            "scripts/content_sender.js",
+            "scripts/content_receiver.js"
+          ],
+          "matches": [
+            "<all_urls>"
+          ]
+        }
+      ]
+  }
