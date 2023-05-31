@@ -2,6 +2,10 @@
 
 This repository contains a WebSocket server written in Go and a Chrome extension that generates a fake mouse pointer in tabs. The fake pointers move based on the real position of other client's pointers.
 
+<p align="center">
+  <img src="demo-extension.gif" />
+</p>
+
 ## WebSocket Server
 
 The WebSocket server is implemented in Go and acts as a central communication hub for the fake mouse pointer functionality. It uses the Gorilla WebSocket library to handle WebSocket connections.
