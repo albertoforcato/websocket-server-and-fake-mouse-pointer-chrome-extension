@@ -1,4 +1,4 @@
-# WebSocket Server and Fake Mouse Pointer Chrome Extension
+# POC - WebSocket Server and Fake Mouse Pointer Chrome Extension
 
 This repository contains a WebSocket server written in Go and a Chrome extension that generates a fake mouse pointer in tabs. The fake pointers move based on the real position of other client's pointers.
 

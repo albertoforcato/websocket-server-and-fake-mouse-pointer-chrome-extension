@@ -1,13 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Your Chrome Extension Name",
+    "name": "Fake mouse pointer",
     "version": "0.1",
-    "author": "First Last",
-    "description": "A description about your Chrome Extension...",
+    "author": "Alberto Forcato",
+    "description": "Fake mouse pointer through websockets",
     "content_scripts": [
         {
           "js": [
-            "scripts/socket.io.min.js",
             "scripts/websocket.js",
             "scripts/content_sender.js",
             "scripts/content_receiver.js"
